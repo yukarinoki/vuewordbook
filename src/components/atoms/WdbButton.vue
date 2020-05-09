@@ -12,7 +12,6 @@
 <script>
 export default {
   name: 'WdbButton',
-
   props: {
     type: {
       type: String,
@@ -42,10 +41,10 @@ export default {
 </script>
 
 <style scoped>
-.kbn-button {
+.wdb-button {
   padding: .6em 1.3em;
 }
-.kbn-button-text {
+.wdb-button-text {
   border: none;
   padding-right: 0;
   padding-left: 0;

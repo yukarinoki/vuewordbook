@@ -7,6 +7,11 @@ import mutations from './mutations'
 Vue.use(Vuex)
 
 const state = {
+  auth: {
+    user: {},
+    token: {},
+    key: {}
+  },
   book: {
     lists: []
   }

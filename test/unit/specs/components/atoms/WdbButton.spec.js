@@ -9,7 +9,7 @@ describe('KbnButton', () => {
           const button = mount(KbnButton, {
             propsData: { type: 'button' }
           })
-          expect(button.element.tagName).to.equal('BUTTON')
+          expect(button.element.tagName).eql('button')
           expect(button.classes()).to.include('wdb-button')
         })
       })

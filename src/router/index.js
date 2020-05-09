@@ -27,7 +27,7 @@ let router = new Router({
       meta: {requiresAuth: true}
     },
     {
-      path: 'setting',
+      path: '/setting',
       component: WdbSettingView,
       meta: {requiresAuth: true}
     },
